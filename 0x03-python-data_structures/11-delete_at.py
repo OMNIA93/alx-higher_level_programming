@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-ef print_reversed_list_integer(my_list=[]):
-    if my_list is None:
-        return
-    rev_list = my_list
-    rev_list.reverse()
-    for i in rev_list:
-        print("{:d}".format(i))
+def delete_at(my_list=[], idx=0):
+    if idx >= 0 and idx < len(my_list):
+        del my_list[idx]
+    return my_list
