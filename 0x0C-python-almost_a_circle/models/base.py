@@ -1,5 +1,5 @@
-
-dels/base.py"""
+#!/usr/bin/python3
+"""models/base.py"""
 import json
 from turtle import * 
 
