@@ -24,6 +24,3 @@ class TestBase(unittest.TestCase):
         # Test the id value for the fifth instance of Base
         a4 = Base()
         self.assertEqual(a4.id, 4)
-
-if __name__ == '__main__':
-    unittest.main()
