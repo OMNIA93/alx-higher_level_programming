@@ -1,25 +1,23 @@
-#!/usr/bin/python3
-"""models/base.py"""
+
+dels/base.py"""
 import json
 from turtle import * 
 
 
 class Base:
-    # Private class attribute
+    """Class Base"""
+
     __nb_objects = 0
 
-    # Class constructor
     def __init__(self, id=None):
+
         if id is not None:
-            # Assign the provided id to the public instance attribute 'id'
             self.id = id
         else:
-            # If id is not provided, increment __nb_objects and assign it to 'id'
             Base.__nb_objects += 1
-            self.id = Base.__nb_objects
+            self.id = self.__nb_objects
 
-
- @staticmethod
+    @staticmethod
     def to_json_string(list_dictionaries):
         """function that returns the JSON representation
         of an object (string)"""
