@@ -1,4 +1,3 @@
-guillaume@ubuntu:~/0x0F$ cat 4-cities_by_state.sql
 -- Create states table in hbtn_0e_4_usa with some data
 CREATE DATABASE IF NOT EXISTS hbtn_0e_4_usa;
 USE hbtn_0e_4_usa;
